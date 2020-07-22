@@ -1,0 +1,16 @@
+function sakuraFall(v) {
+
+// Petals fall at 5cm/s and take 80s to reach ground from a certain branch
+//5cm/s * 80s 
+  const totalDistance = 400;
+  
+//Set parameters to give valid output if input is greater than 0  
+  if(v > 0){
+      return totalDistance / v ; 
+        }
+        
+//Or if input is less than or equal to 0         
+        else if(v <= 0){
+          return 0;
+        }
+}
